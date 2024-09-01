@@ -1,2 +1,3 @@
-# wro-cpp.github.io
-C++ Community in Wroclaw
+# wrocpp.github.io
+
+Webpage for C++ Community in Wroclaw
