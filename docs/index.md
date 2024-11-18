@@ -12,9 +12,113 @@ I believe that C++ is just a tool that you need to know as good as any other too
 
 ![Areas for C++ expert](assets/areas.png)
 
-I talked about it here:
-<div style="display: flex; justify-content: center;">
-    <iframe width="100%" height="600" src="https://www.youtube.com/embed/73lDMLRo_NY?si=SDPxvQsolEdqrHI8" title="Wro.cpp restart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+I talked about it here: [Wro.cpp restart](https://www.youtube.com/embed/73lDMLRo_NY?si=SDPxvQsolEdqrHI8)
+
+<div class="grid cards" markdown>
+
+-   :material-play:{ .lg .middle } __Start your code__
+
+    ---
+
+    * command line application (CLI)
+    * GUI application
+    * static library
+    * dynamic library
+    * plugin
+    * static variable initialization
+    * run in a separate process
+    * run in a separate thread
+    * run on a remote machine
+    * run in virtualized environment
+      * docker
+      * sandbox
+      * vm
+
+
+-   :fontawesome-solid-gears:{ .lg .middle } __Execution of your code__
+
+    ---
+
+    * configuration
+      * command line arguments
+      * environment variables
+      * configuration files
+    * persistent storage
+    * communication
+      * multithreaded
+      * multiprocess
+        * shared memory
+          * circular buffers
+        * local sockets
+      * Network:
+        * TCP/IP
+        * UDP
+        * HTTP/HTTPS
+      * low level
+        * SPI
+        * UART
+        * CAN
+        * …
+      * producer-consumer 
+        * DDS
+        * MQTT
+        * ZeroMQ
+    * over-The-Air Updates
+    * restoring the state of the app
+
+-   :fontawesome-solid-magnifying-glass-chart:{ .lg .middle } __Monitor your code__
+
+    ---
+
+    * logs
+    * debugging
+    * profiling
+      * valgrind
+      * perf
+    * core dump
+    * strace
+    * heartbeats and watchdog
+    * stdout
+    * internal counters dumping
+
+
+-   :fontawesome-solid-flag-checkered:{ .lg .middle } __Finish your code__
+
+    ---
+
+    * exits
+      * various exists
+    * terminate
+    * signals
+    * cleanups
+    * static variables cleanup
+    * saving the state
+
+-   :material-developer-board:{ .lg .middle } __Development Environment__
+
+    ---
+
+    * Containerization (docker)
+    * Continous Integration (gitlab, github)
+    * Documenting the project (mkdocs, C4 model, UML)
+
+-   :material-language-cpp:{ .lg .middle } __C++ Language__
+
+    ---
+
+    * New standards
+    * New language features
+    * Experiments (e.g., cppfront)
+
+-   :simple-knowledgebase:{ .lg .middle } __Lessons Learned__
+
+    ---
+
+    * Cppfront
+    * μ(micro)/Unit Testing Framework
+    * Your project?
+
+
 </div>
 
 ## Help us prepare better content!
